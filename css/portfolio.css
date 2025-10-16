@@ -1,0 +1,27 @@
+.portfolio {
+    background-color: #F2F2F2;
+}
+
+.portfolio__list {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.portfolio__item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    max-height: 450px;
+    align-content: space-between;
+    gap: 10px;
+}
+
+.portfolio__item-subtitle {
+    display: flex;
+    max-width: 500px;
+}
+
+.portfolio__photo {
+    max-width: 300px;
+}

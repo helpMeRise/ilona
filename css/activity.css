@@ -1,0 +1,13 @@
+.activity__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.activity__item {
+    display: flex;
+    padding: 25px 15px;
+    background-color: #F2F2F2;
+    border-radius: 50px;
+    font-size: 18px;
+}
