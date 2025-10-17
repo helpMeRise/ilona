@@ -8,10 +8,8 @@
     flex-wrap: wrap;
     max-height: 650px;
     align-content: space-between;
-    gap: 10px;
 }
 .hero__title {
-    margin-top: 100px;
     font-weight: 500;
     font-size: 48px;
     max-width: 410px;
@@ -20,9 +18,14 @@
 
 .hero__text {
     font-weight: 300;
-    font-size: 30px;
-    line-height: 36px;
-    max-width: 635px;
+    font-size: 20px;
+    line-height: 26px;
+    max-width: 585px;
+    text-align: justify;
+}
+
+.hero__photo {
+    max-width: 550px;
 }
 
 .hero__arrow {
@@ -35,3 +38,4 @@
     cursor: pointer;
     margin: 30px;
 }
+
