@@ -11,3 +11,11 @@
     border-radius: 50px;
     font-size: 18px;
 }
+
+.activity__link {
+    transition: .3s
+}
+
+.activity__link:hover {
+    transform: rotate(5deg);
+}
