@@ -2,11 +2,19 @@
     background-color: #F2F2F2;
 }
 
+.programs__list {
+    padding: 30px;
+}
+
+.programs__item:not(:last-child) {
+    margin-bottom: 50px;
+}
+
 .programs__container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 40px;
+    gap: 20px;
 }
 
 .programs__title {
@@ -19,5 +27,5 @@
 }
 
 .programs__link:hover {
-    transform: translateX(15px);
+    transform: translateX(5px);
 }
