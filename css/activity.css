@@ -4,18 +4,15 @@
     gap: 15px;
 }
 
-.activity__item {
+.activity__link {
     display: flex;
     padding: 25px 15px;
-    background-color: #F2F2F2;
+    background-color: #f0c8d4;
     border-radius: 50px;
     font-size: 18px;
+    box-shadow: 3px 3px 0;
 }
 
-.activity__link {
-    transition: .3s
-}
-
-.activity__link:hover {
-    transform: rotate(5deg);
+.activity__link:active {
+    box-shadow: 1px 1px 1px;
 }

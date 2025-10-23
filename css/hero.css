@@ -1,12 +1,11 @@
 .hero {
     padding: 60px 0;
-    background-color: #F2F2F2;
 }
 .hero__container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    max-height: 650px;
+    max-height: 850px;
     align-content: space-between;
 }
 .hero__title {
@@ -25,7 +24,7 @@
 }
 
 .hero__photo {
-    max-width: 550px;
+    max-width: 500px;
 }
 
 .hero__arrow {

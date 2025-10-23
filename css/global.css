@@ -22,8 +22,8 @@ body {
   min-height: 100vh;
   font-family: Arial, sans-serif;
   font-size: 16px;
-  color: #000;
-  background-color: #fff;
+  color: #180452;
+  background-color: #f0d6f8;
 }
 
 
@@ -101,30 +101,6 @@ iframe {
   height: 300px;
 }
 
-.swiper-slide:first-child {
-  background: url("../img/img1.jpg") center / contain no-repeat;
-}
-
-.swiper-slide:nth-child(2) {
-  background: url("../img/img2.jpg") center / contain no-repeat;
-}
-
-.swiper-slide:nth-child(3) {
-  background: url("../img/img3.jpg") center / contain no-repeat;
-}
-
-.swiper-slide:nth-child(4) {
-  background: url("../img/img4.jpg") center / contain no-repeat;
-}
-
-.swiper-slide:nth-child(5) {
-  background: url("../img/img5.jpg") center / contain no-repeat;
-}
-
-.swiper-slide:nth-child(6) {
-  background: url("../img/img6.jpg") center / contain no-repeat;
-}
-
-.nav {
-    padding: 30px 0;
+.programs__main-title {
+  font-size: 44px;
 }
