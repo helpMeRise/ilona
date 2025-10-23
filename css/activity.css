@@ -1,3 +1,7 @@
+.activity {
+    background-color: #be9ac9;
+}
+
 .activity__list {
     display: flex;
     flex-wrap: wrap;

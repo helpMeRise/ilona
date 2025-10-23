@@ -1,3 +1,7 @@
+.portfolio {
+    background-color: #be9ac9;
+}
+
 .portfolio__list {
     display: flex;
     flex-direction: column;

@@ -105,6 +105,11 @@ iframe {
   font-size: 44px;
 }
 
+.footer__container {
+  display: flex;
+  justify-content: center;
+}
+
 .btn-up {
   position: fixed;
   background-color: #673ab7;
@@ -135,4 +140,19 @@ iframe {
   .btn-up:hover {
     background-color: #512da8;
   }
+}
+
+.schedule__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+} 
+
+.schedule__item {
+  transition: .3s;
+}
+
+.schedule__item:hover {
+  transform: scale(1.3);
 }
